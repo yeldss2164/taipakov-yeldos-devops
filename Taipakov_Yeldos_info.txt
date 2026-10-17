@@ -1,0 +1,5 @@
+Name: Yeldos
+Surname: Taipakov
+Group: IT2-2310
+Student ID: 38321
+Course: DevOps
