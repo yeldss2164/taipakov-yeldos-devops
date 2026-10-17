@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    image: taipakov-yeldos-devops
+    container_name: taipakov-yeldos-compose
+    environment:
+      STUDENT_NAME: Yeldos
+      STUDENT_SURNAME: Taipakov
+      STUDENT_GROUP: IT2-2310
+      STUDENT_ID: "38321"
+    restart: unless-stopped
